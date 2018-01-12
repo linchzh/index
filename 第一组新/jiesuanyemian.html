@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结算页面</title>
+    <link rel="stylesheet" href="css/jiesuanyemian.css">
+    <link rel="stylesheet" href="css/touwei.css">
+    <script src="jquery-1.9.0.min.js"></script>
+    <script src="js/jieSuanYeMian.js"></script>
+</head>
+<body>
+<!--头部1-->
+<div id="header">
+    <ul>
+        <li class="headerLogo"></li>
+        <li class="headerTitle">
+            <p>您好，欢迎来到京东商城！想继续购物？<span><a href="#">[请登录]</a></span>，新用户？<span><a href="#">[免费注册]</a></span></p>
+        </li>
+        <li class="headerRight">
+            <ul>
+                <li class="headerRightTop">
+                    <ul>
+                        <li class="headerRightTop1">
+                            <ul>
+                                <li class="headerRightTop1title"><a href="#">帮助中心</a></li>
+                                <li class="headerRightTop1title2">|</li>
+                                <li class="headerRightTop1title"><a href="#">客户反馈</a></li>
+                                <li class="headerRightTop1title2">|</li>
+                                <li class="headerRightTop1title"><a href="#">网站地图</a></li>
+                                <li class="headerRightTop1title2">|</li>
+                                <li class="headerRightTop1title"><a href="#">加入收藏</a></li>
+                            </ul>
+                        </li>
+                        <li class="headerRightTop2">
+                            <ul>
+                                <li class="headerRightTop2title">2015/6/15</li>
+                                <li class="headerRightTop2title">星期一</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="headerRightBottom">
+                    <marquee direction="up" loop="-1" scrollamount="1" scrolldelay="0" height="20" onMouseOut="start()" onMouseOver="stop()" >
+                        <p class="headerRightBottom1"><a href="#">仿京东商城强大版升级了，感谢用户支持与信任</a></p>
+                        <p class="headerRightBottom1"><a href="#">仿京东商城强大版升级了，感谢用户支持与信任</a></p>
+                        <p class="headerRightBottom1"><a href="#">仿京东商城强大版升级了，感谢用户支持与信任</a></p>
+                        <p class="headerRightBottom1"><a href="#">仿京东商城强大版升级了，感谢用户支持与信任</a></p>
+                    </marquee>
+                    <!--<li class="headerRightBottom2">仿京东商城最强大版升级了，感谢用户支持与信任！</li>-->
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!--头部2-->
+<div id="header2">
+    <ul>
+        <li class="header2top">
+            <ul class="header2top3">
+                <li class="header2top1"><a href="#">网站首页</a></li>
+                <li class="header2top2"></li>
+                <li class="header2top1"><a href="#">分类导航</a></li>
+                <li class="header2top2"></li>
+                <li class="header2top1"><a href="#">品牌导航</a></li>
+                <li class="header2top2"></li>
+                <li class="header2top1"><a href="#">购物帮助</a></li>
+                <li class="header2top2"></li>
+                <li class="header2top1"><a href="#">新闻资讯</a></li>
+                <li class="header2top2"></li>
+                <li class="header2top1"><a href="#">报价单</a></li>
+                <li class="header2top2"></li>
+                <li class="header2top1"><a href="#">购物单</a></li>
+            </ul>
+        </li>
+        <li class="header2bottom">
+            <ul class="header2bottom1">
+                <li class="header2bottom2">商品搜索：</li>
+                <li class="header2bottom3">
+                    <select>
+                        <option>所有分类</option>
+                        <option>男士衣服</option>
+                        <option>女士衣服</option>
+                        <option>鞋子</option>
+                        <option>帽子</option>
+                    </select>
+                </li>
+                <li class="header2bottom4">
+                    <input type="text">
+                </li>
+                <li class="header2bottom5">
+                    <button>搜索</button>
+                </li>
+                <li class="header2bottom6">高级/组合搜索</li>
+                <li class="header2bottom7">
+                    <ul>
+                        <li class="header2bottom8" style="margin-left:30px;">
+                            <a href="#">购物车暂时为空</a>
+                        </li>
+                        <li class="header2bottom8" style="margin-left:65px;">
+                            <a href="#">去结算</a>
+                        </li>
+                        <li class="header2bottom8" style="margin-left:35px;">
+                            <a href="#">用户中心</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+    <!--</中间>-->
+    <div id="jieSuan">
+        <!--左边 用户信息-->
+        <div class="jsYongHu jieSuanYe">
+            <div class="jsYongHuTou">
+                <span>用户信息</span>
+            </div>
+            <ul class="jsYongHuXinXi">
+                <li>
+                    <img src="img/yonghutouxiang1.gif" alt="" />
+                    <a href=""><span>欢迎tiger</span></a>
+                    [<a href="">退出</a>]
+                </li>
+                <li>
+                    <img src="img/yonghuziliao.gif" alt="" />
+                    <a href="">用户资料修改</a>
+                </li>
+                <li>
+                    <img src="img/yonghumima.gif" alt="" />
+                    <a href="">用户密码修改</a>
+                </li>
+                <li>
+                    <img src="img/dingdanguanli.gif" alt="" />
+                    <a href="">订单管理</a>
+                </li>
+                <li>
+                    <img src="img/guanliyouhuijuan.gif" alt="" />
+                    <a href="">管理优惠券(<span>0张</span>)</a>
+                </li>
+                <li>
+                    <img src="img/duihuanyouhuijuan.gif" alt="" />
+                    <a href="">兑换优惠券</a>
+                </li>
+                <li>
+                    <img src="img/quehoudengji.gif" alt="" />
+                    <a href="">缺货登记</a>
+                    <a href="">登记记录</a>
+                </li>
+                <li>
+                    <img src="img/gouwuche.gif" alt="" />
+                    <a href="">购物车(<span>2</span>)</a>
+                </li>
+                <li>
+                    <img src="img/wodeshoucang.gif" alt="" />
+                    <a href="">我的收藏 (<span>0</span>)</a>
+                </li>
+                <li>
+                    <img src="img/duibikuang.gif" alt="" />
+                    <a href="">对比框(<span>0</span>)</a>
+                </li>
+            </ul>
+        </div>
+        <!--右边 购物结算-->
+        <div class="jsGouWuChe jieSuanYe">
+            <div class="jsGouWuCheDangQ">
+                <span>
+                    <img src="img/jieuanyemian_dangqianweizhi.gif" alt="" />
+                    您的位置：<span>首页</span> >> 购物结算
+                </span>
+            </div>
+            <div class="jsGouWuCheChe0">
+                <!--购物tit-->
+                <ul class="jsGouWuCheCC1">
+                    <li class="jsGouWuCheChe1">
+                        <p>商品名称</p>
+                    </li>
+                    <li class="jsGouWuCheChe2">
+                        <span>单价（元）</span>
+                    </li>
+                    <li class="jsGouWuCheChe3">
+                        <span>数量</span>
+                    </li>
+                    <li class="jsGouWuCheChe4">
+                        <span>合计（元）</span>
+                    </li>
+                    <li class="jsGouWuCheChe5">
+                        <span>类型</span>
+                    </li>
+                </ul>
+                <!--购物1-->
+                <ul class="jsGouWuCheCC2">
+                    <li class="jsGouWuCheChe1_ShangPing">
+                        <p>男式运动鞋 猫爪野外跑鞋2RMB313-1</p>
+                    </li>
+                    <li class="jsGouWuCheChe2_ShangPing">
+                        ￥<span>528.00</span>
+                    </li>
+                    <li class="jsGouWuCheChe3_ShangPing">
+                        <span>
+                            1
+                        </span>
+                    </li>
+                    <li class="jsGouWuCheChe4_ShangPing">
+                        ￥<span>528.00</span>
+                    </li>
+                    <li class="jsGouWuCheChe5_ShangPing">
+                        <span>-</span>
+                    </li>
+                </ul>
+                <!--购物2-->
+                <ul class="jsGouWuCheCC3">
+                    <li class="jsGouWuCheChe1_ShangPing">
+                        <p>美的（midea）电脑版电压力锅PCS507一锅双胆</p>
+                    </li>
+                    <li class="jsGouWuCheChe2_ShangPing">
+                        ￥<span>389.00</span>
+                    </li>
+                    <li class="jsGouWuCheChe3_ShangPing">
+                        <span>1</span>
+                    </li>
+                    <li class="jsGouWuCheChe4_ShangPing">
+                        ￥<span>389.00</span>
+                    </li>
+                    <li class="jsGouWuCheChe5_ShangPing">
+                        <span>-</span>
+                    </li>
+
+                </ul>
+                <!--商品结算-->
+                <ul class="jsGouWuCheCC4">
+                    <li>
+                        <span>共</span>
+                        <span class="jsGWCZongE">2</span>
+                        <span>件商品 价格总计</span>
+                        <span class="jsGWCZongE">
+                            ￥<span>917.00</span>元
+                        </span>
+                        <span>您是：</span>
+                        <span class="jsGECHuiYuan">一般会员</span>
+                        <span>(不享受折扣)</span>
+                    </li>
+                    <li>
+                        <span>折后价格：</span>
+                        <span class="jsGWCZongE">
+                            ￥<span>917.00</span>元
+                        </span>
+                        <span>获得积分:</span>
+                        <span>917</span>
+                    </li>
+                    <li>
+                        <span>满￥500元免运费，您的订单可以免费送货！</span>
+                    </li>
+                </ul>
+                <!--选择赠品-->
+                <ul class="jsGouWuCheCC5">
+                    <li class="jsGWCZengPin1">
+                        <img src="img/jiesuanyemian_xuanzezp.gif" alt="">
+                        <span>选择赠品</span>
+                    </li>
+                    <li>
+                        <input type="radio" value="" name="xuanZeZengPin">
+                        <span class="jsGWCcc1">请选择赠品：每个订单只可以选择一个赠品，赠品有限请抓紧机会，赠品不负责退换!</span>
+                        <br/>
+                        <input type="radio" value="" name="xuanZeZengPin">
+                        <span class="jsGWCcc2">只差2083即可获得此赠品!</span>
+                        <span class="jsGWCcc3">XX手办</span>
+                        <span>(剩余1000件)</span>
+                        <span>价值 ￥3400</span>
+                        <span>满￥3000元送</span>
+                    </li>
+                </ul>
+                <!--使用优惠券-->
+                <ul class="jsGouWuCheCC6">
+                    <li class="jsGWCZengPin1">
+                        <img src="img/jiesuanyemian_xuanzezp.gif" alt="">
+                        <span>使用优惠券</span>
+                    </li>
+                    <li class="jsGWCYouHuiQuan1">
+                        <span>卡号:</span>
+                        <input type="text">
+                        <span>密码:</span>
+                        <input type="text">
+                        <a href="">验证</a>
+                    </li>
+                </ul>
+                <!--填写收货人的信息1-->
+                <ul class="jsGouWuCheCC7">
+                    <li class="jsGWCZengPin1">
+                        <img src="img/jiesuanyemian_xuanzezp.gif" alt="">
+                        <span>请填写收货人的信息</span>
+                    </li>
+                    <li class="jsGWCYouHuiQuan1">
+                        <span>姓名:</span>
+                        <input type="text">
+                        <br>
+                        <span>电话:</span>
+                        <input type="text">
+                        <br>
+                        <span class="jsGWCsHrE-mail">E-mail:</span>
+                        <input type="text" value="123456789@qq.com" >
+                        <br>
+                        <span>地址:</span>
+                        <input type="text" class="jsGWCsHrDz">
+                        <br>
+                        <span>邮编:</span>
+                        <input type="text" class="jsGWCsHrYx">
+                    </li>
+                </ul>
+                <!--填写收货人的信息2-->
+                <ul class="jsGouWuCheCC8">
+                    <li class="jsGWCZengPin1">
+                        <img src="img/jiesuanyemian_xuanzezp.gif" alt="">
+                        <span>请填写收货人的信息</span>
+                        <span>
+                            <input type="checkbox">
+                            复制订货人信息
+                        </span>
+                    </li>
+                    <li class="jsGWCYouHuiQuan2">
+                        <ul class="jieSuanGWCShouHuoRen">
+                            <li class="jsGWCfuZhiSHR1">
+                                <span>*</span>
+                                <span>客户姓名:</span>
+                                <input type="text" value=" ">
+                            </li>
+                            <li class="jsGWCfuZhiSHR2">
+                                <span>*</span>
+                                <span>联系电话:</span>
+                                <input type="text" value=" ">
+                            </li>
+                            <li class="jsGWCfuZhiSHR3">
+                                <span>*</span>
+                                <span>电子邮箱:</span>
+                                <input type="text" value="123456789@qq.com" >
+                            </li>
+                            <li class="jsGWCfuZhiSHR4">
+                                <span>*</span>
+                                <span>联系地址:</span>
+                                <input type="text" class="jsGWCsHrDz" value=" ">
+                            </li>
+                            <li class="jsGWCfuZhiSHR5">
+                                <span>*</span>
+                                <span>邮政编码:</span>
+                                <input type="text" class="jsGWCsHrYx" value=" ">
+                            </li>
+                            <li class="jsGWCfuZhiSHR6">
+                                <span>*</span>
+                                <span>到货时间:</span>
+                                <input type="radio" value=" ">
+                                <span>工作时间 8:00-23:00</span>
+                            </li>
+                            <li class="jsGWCfuZhiSHR7">
+                                <span>*</span>
+                                <span>付款方式:</span>
+                                <input type="radio" value=" ">
+                                <span>银行转账</span>
+                                <a href="">[中国银行：户名：曾某某 卡号：9333 8000 0213 2365 765]</a>
+                                <br />
+                                <a href=""><span>关于付款方式的详细说明>></span></a>
+                            </li>
+                            <li class="jsGWCfuZhiSHR8">
+                                <span>*</span>
+                                <span>送货方式:</span>
+                                <input type="radio" name="songHuo" value=" ">
+                                <span>快递送货</span>
+                                <a href="">[实惠快速，一般3天到货，收费12元]</a>
+                                <br />
+                                <input type="radio" name="songHuo" value=" ">
+                                <span>EMS邮寄</span>
+                                <a href="">[农村邮寄，一般5天到货，收费23元]</a>
+                                <br/>
+                                <a href=""><span>关于送货方式的详细说明>></span></a>
+                            </li>
+                            <li class="jsGWCfuZhiSHR9">
+                                <span>需要发票:</span>
+                                <input type="radio" name="faPiao" >
+                                <span>需要</span>
+                                <input type="radio" name="faPiao">
+                                <span>不需要</span>
+                                <a href="">(开发票需要加收税点5%)</a>
+                            </li>
+                            <li class="jsGWCfuZhiSHR10">
+                                <span>缺货处理:</span>
+                                <input type="radio" name="QueHuoChuLi">
+                                <span>等待</span>
+                                <input type="radio" name="QueHuoChuLi">
+                                <span>从订单取消</span>
+                            </li>
+                            <li class="jsGWCfuZhiSHR11">
+                                <div>
+                                    <span>备注:</span>
+                                    <br />
+                                    <span>(50字以内)</span>
+                                </div>
+                                <textarea></textarea>
+                            </li>
+                            <li class="jsGWCfuZhiSHR12">
+                                <button class="JsGwcZfShr">提交</button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<!--底部-->
+<div id="fooder">
+    <!--底部第一部分-->
+    <div class="fooder1">
+        <ul>
+            <li class="fooder1Title">
+                <p>关于我们</p>
+                <ul>
+                    <li class="fooder1Title1"><a href="#">发展历程</a></li>
+                    <li class="fooder1Title1"><a href="#">联系方式</a></li>
+                    <li class="fooder1Title1"><a href="#">公司介绍</a></li>
+                    <li class="fooder1Title1"><a href="#">企业文化</a></li>
+                </ul>
+            </li>
+            <li class="fooder1Title">
+                <p>付款方式</p>
+                <ul>
+                    <li class="fooder1Title1"><a href="#">银行汇款</a></li>
+                    <li class="fooder1Title1"><a href="#">在线支付</a></li>
+                    <li class="fooder1Title1"><a href="#">银行汇款</a></li>
+                    <li class="fooder1Title1"><a href="#">公司转账</a></li>
+                </ul>
+            </li>
+            <li class="fooder1Title">
+                <p>送货方式</p>
+                <ul>
+                    <li class="fooder1Title1"><a href="#">上门自提</a></li>
+                    <li class="fooder1Title1"><a href="#">EMS快递</a></li>
+                    <li class="fooder1Title1"><a href="#">快递发货</a></li>
+                    <li class="fooder1Title1"><a href="#">平邮发货</a></li>
+                </ul>
+            </li>
+            <li class="fooder1Title">
+                <p>售后服务</p>
+                <ul>
+                    <li class="fooder1Title1"><a href="#">质保承诺</a></li>
+                    <li class="fooder1Title1"><a href="#">退换货政策</a></li>
+                    <li class="fooder1Title1"><a href="#">价格保护</a></li>
+                    <li class="fooder1Title1"><a href="#">返修申请</a></li>
+                </ul>
+            </li>
+            <li class="fooder1Title">
+                <p>购物帮助</p>
+                <ul>
+                    <li class="fooder1Title1"><a href="#">用户等级</a></li>
+                    <li class="fooder1Title1"><a href="#">积分获得与使用</a></li>
+                    <li class="fooder1Title1"><a href="#">购物流程</a></li>
+                    <li class="fooder1Title1"><a href="#">常见问题</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!--底部第二部分-->
+    <div class="fooder2">
+        <ul>
+            <li class="fooder2Title1">
+                <ul>
+                    <li class="fooder2Title1min">淘宝店</li>
+                    <li class="fooder2Title1min">易趣店</li>
+                    <li class="fooder2Title1min">拍拍店</li>
+                    <li class="fooder2Title1min">有啊店</li>
+                </ul>
+            </li>
+            <li class="fooder2Title2">
+                <ul>
+                    <li class="fooder2Title2min">Copyright</li>
+                    <li class="fooder2Title2min">2015</li>
+                    <li class="fooder2Title2min" style="color: rgb(102,102,102)">127.0.0.1.</li>
+                    <li class="fooder2Title2min">All</li>
+                    <li class="fooder2Title2min">Rights</li>
+                    <li class="fooder2Title2min">Reserved</li>
+                    <li class="fooder2Title2min">版权所有：广州网软志成信息科技有限公司</li>
+                </ul>
+            </li>
+            <li class="fooder2Title3">
+                <ul>
+                    <li class="fooder2Title3min">客户服务热线：020-34506590</li>
+                    <li class="fooder2Title3min">传真：020-34506590</li>
+                </ul>
+            </li>
+            <li class="fooder2Title4">
+                <ul>
+                    <li class="fooder2Title4min">客户服务邮箱：<span style="color: rgb(102,102,102);">webmaster@wrzc.net</span></li>
+                    <li class="fooder2Title4min">粤ICP备06122404号</li>
+                    <li class="fooder2Title4min">管理进入</li>
+                </ul>
+            </li>
+            <li class="fooder2Title5">
+                <ul>
+                    <li class="fooder2Title5min">总部地址：广州市天河区软件产业基地8栋</li>
+                    <li class="fooder2Title5min" style="margin-left: 15px">联系电话：020-34506590</li>
+                    <li class="fooder2Title5min">34700400</li>
+                    <li class="fooder2Title5min">34709708</li>
+                    <li class="fooder2Title5min">13719472523</li>
+                    <li class="fooder2Title5min">13527894748</li>
+                </ul>
+            </li>
+            <li class="fooder2Title6">
+                <ul>
+                    <li class="fooder2Title6min">客服QQ：290116505</li>
+                    <li class="fooder2Title6min">
+                        <img src="images/fooder2Title6min.jpg">
+                    </li>
+                    <li class="fooder2Title6min">38306293</li>
+                    <li class="fooder2Title6min">
+                        <img src="images/fooder2Title6min.jpg">
+                    </li>
+                    <li class="fooder2Title6min">417586492</li>
+                    <li class="fooder2Title6min">
+                        <img src="images/fooder2Title6min.jpg">
+                    </li>
+                    <li class="fooder2Title6min">657248708</li>
+                    <li class="fooder2Title6min">
+                        <img src="images/fooder2Title6min.jpg">
+                    </li>
+                </ul>
+            </li>
+            <li class="fooder2Title7">
+                <ul>
+                    <li class="fooder2Title7min">客服QQ：454882888</li>
+                    <li class="fooder2Title7min">
+                        <img src="images/fooder2Title6min.jpg">
+                    </li>
+                    <li class="fooder2Title7min">394223545</li>
+                    <li class="fooder2Title7min">
+                        <img src="images/fooder2Title6min.jpg">
+                    </li>
+                    <li class="fooder2Title7min">469648611</li>
+                    <li class="fooder2Title7min">
+                        <img src="images/fooder2Title6min.jpg">
+                    </li>
+                    <li class="fooder2Title7min">314730679</li>
+                    <li class="fooder2Title7min">
+                        <img src="images/fooder2Title6min.jpg">
+                    </li>
+                </ul>
+            </li>
+            <li class="fooder2Title8">
+                <ul>
+                    <li class="fooder2Title8min">E-mail:webmaster@wrzc.net</li>
+                    <li class="fooder2Title8min">MSN:wrtxcn@hotmail.com</li>
+                </ul>
+            </li>
+            <li class="fooder2Title9">
+                <ul>
+                    <li class="fooder2Title9min">Copyright(c)</li>
+                    <li class="fooder2Title9min">2000-2020</li>
+                    <li class="fooder2Title9min">www.wrzc.net</li>
+                    <li class="fooder2Title9min">广州网志成</li>
+                    <li class="fooder2Title9min">版权所有<span style="color: rgb(102,102,102);">后台管理登录入口</span></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!--底部第三部分-->
+    <div class="fooder3">
+        <ul>
+            <li class="fooder3Title1">广州网软志成更多更好的网站等你来用</li>
+            <li class="fooder3Title2">仿京东商城源码，仿京东商城源码下载，免费购物系统商业版，仿京东商城系统源码，在线商城京东商城网页模块，免费的仿京东商城源代码，电子商城源代码，购物商城源代码，网络商城程序，商
+                城程序，独立商城程序，商城程序开发，网上商城程序，京东数码商城程序，在线商城程序下载，商城系统，电子商城系统，网络商城系统，b2c商城系统，免费商城系统，购物商城系统，网上商城系
+                统，asp商城系统，在线商城系统，手机数码商城系统，英文版仿京东商城系统，免费京东商城源代码，下载京东商城网页模板，京东商城网站源程序，网上在线商城模板，在线网络商城模板，仿京
+                东网上商城模板，京东商城网店系统下载网址，仿京东商城首页模板，仿京东商城网页模板，京东商城网站源程序，仿京 东商城系统下载，京东商城网店系统商业版京东商城网店模板，京东商城asp系
+                统源码，京东商城网站程序源程序，在线商城系统，手机数码商城系统，英文版仿京东商城系统，免费京东商城源代码，下载京东商城网页模板，京东商城网站源程序，网上在线商城模板，在线网络商城
+                模板，仿京东商城源码下载，下载京东商城网页模板，京东商城网站源程序，网上在线商城模板，php仿京东商城系统，asp+mssql生成html的京东商城系统</li>
+        </ul>
+    </div>
+    <!--底部第四部分-->
+    <div class="fooder4">
+        <p class="fooder4Title">特大优惠：加379元即送300M空间，顶级域名1个，加579元即送500M空间，顶级域名1个，加879元即送1000M空间，顶级域名1个<img src="images/fooder4.jpg" /></p>
+    </div>
+</div>
+</body>
+</html>

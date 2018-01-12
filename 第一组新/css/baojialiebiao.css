@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"微软雅黑";
+}
+.BaoJia{
+    width: 980px;
+    height: 575px;
+    margin: 0 auto;
+}
+.BaoJiaDan_Tou{
+    width: 980px;
+    height: 45px;
+    position: relative;
+    margin: 6px auto 0 auto;
+    border-bottom: 1px solid rgb(228,228,228);
+    color: rgb(0,0,0);
+    background: -webkit-linear-gradient(bottom,  rgb(251,242,255) 0%,#ffffff 100%);
+}
+.BaoJiaDan_Tou p1{
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.BaoJiaDan_Tou p2{
+    margin: 5px 5px auto ;
+    float: right;
+    bottom: 20px;
+    left: 5px;
+    font-size: 12px;
+}
+.BaoJiaDan_DaoHang{
+    margin: 0 auto;
+    width: 980px;
+    height: 26px;
+    background: rgb(245,245,245);
+    color: rgb(0,0,0);
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: bold;
+    position: relative;
+    display: block;
+
+}
+.BaoJiaDan_DaoHang ul{
+    list-style: none;
+    position: relative;
+}
+.BaoJiaDan_DaoHang ul li{
+    float: left;
+}
+.c1{
+    width: 80px;
+    height: 26px;
+    left: 5px;
+    padding-right: 10px;
+    position: absolute;
+    border-right: 1px solid rgb(255,255,255);
+}
+.c2{
+    width: 446px;
+    height: 26px;
+    left: 5px;
+    padding-left: 60px;
+    border-right: 1px solid rgb(255,255,255);
+}
+.c2 p{
+    position: absolute;
+    left: 10px;
+    border-right: 1px solid rgb(255,255,255);
+}
+.c3{
+    width: 125px;
+    height: 26px;
+    text-align: center;
+    border-right: 1px solid rgb(255,255,255);
+}
+.c4{
+
+    width: 125px;
+    height: 26px;
+    text-align: center;
+    border-right: 1px solid rgb(255,255,255);
+}
+.c5{
+    width: 65px;
+    height: 26px;
+    text-align: center;
+    border-right: 1px solid rgb(255,255,255);
+}
+.c6{
+
+    width: 106px;
+    height: 26px;
+    text-align: center;
+    float: right;
+    border-right: none;
+}
+.BaoJiaDan_NeiRong{
+    margin: 5px auto;
+    width: 980px;
+    height: 430px;
+    position: relative;
+
+}
+.BaoJiaDan_NeiRong div{
+    float: left;
+    width: 980px;
+    height: 50px;
+    top: 10px;
+    line-height: 50px;
+    font-size: 12px;
+}
+.BaoJiaDan_NeiRong ul{
+    height: 55px;
+    position: relative;
+    list-style: none;
+}
+.BaoJiaDan_NeiRong ul l6{
+    position: absolute;
+}
+.BaoJiaDan_NeiRong ul li{
+    float: left;
+    position: absolute;
+}
+.BaoJiaDan_NeiRong img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    position: absolute;
+    left: 0;
+}
+.l2{
+    padding-left: 60px;
+}
+.l3{
+    padding-left: 543px;
+}
+
+.l4{
+    padding-left: 668px;
+    color: rgb(250,0,0);
+}
+.l5{
+    padding-left: 783px;
+}
+.l6{
+    position: absolute;
+    right: 90px;
+    top: 0px;
+}
+.nr2,.nr3,.nr4,.nr5,.nr6,.nr7,.nr8{
+    margin-top: 5px;
+}
+.nr2,.nr4,.nr6,.nr8{
+    background:rgb(245,245,245);
+}
+.BaoJiaDan_YeMianTiaoZhuang{
+    width: 980px;
+    height: 56px;
+    margin:0 auto;
+    background: rgb(255,242,255);
+    font-size: 12px;
+    position: relative;
+    color: #000;
+
+}
+.BaoJiaDan_YeMianTiaoZhuang ul{
+    list-style: none;
+    /*width: 600px;*/
+    height: 56px;
+}
+.BaoJiaDan_YeMianTiaoZhuang ul li{
+    float: left;
+    padding: 15px 8px;
+}
+.BaoJiaDan_YeMianTiaoZhuang ul li:first-child{
+    padding: 15px 8px 0 0;
+}
+.BaoJiaDan_YeMianTiaoZhuang ul li:nth-child(4){
+    padding: 15px  0px 0 8px;
+}
+.YeMianTiaoZhuang2{
+    position: absolute;
+    left: 0;
+    top:20px;
+    list-style: none;
+
+}
+#shurukuang{
+    text-align: center;
+    width: 40px;
+    height: 20px;
+    margin-top: 12px;
+}
+#anniu{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: 290px;
+    top: 12px;
+}
