@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"微软雅黑";
+}
+.ChanPin_Zuo a{text-decoration: none;}
+a:link,a:visited{
+    color: rgb(102,102,102);
+}
+a:hover,a:active {
+    color: rgb(74,0,0);
+}
+.chanpin{
+    width: 980px;
+    height: 1010px;
+    position: relative;
+    margin: 10px auto;
+}
+.ChanPin_You{
+    width: 770px;
+    height: 513px;
+    position: absolute;
+    float: left;
+    left: 205px;
+    top: 15px;
+    font-size: 12px;
+}
+
+.ChanPin_You_Tou1{
+    width: 770px;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(0 0 0);
+    background: -webkit-linear-gradient(bottom,  rgb(243,243,243) 0%,#ffffff 100%);
+}
+.ChanPin_You_Tou2  li{
+    padding: 0 5px 0 5px;
+}
+.ChanPin_You_Tou2 a:link,.ChanPin_You_Tou2 a:visited{color: rgb(102,102,102);}
+.ChanPin_You_Tou2 a:hover,.ChanPin_You_Tou2  a:active {color: rgb(74,0,0);}
+
+.ChanPin_You ul{
+    list-style: none;
+}
+.ChanPin_You ul li{
+    float: left;
+    /*margin-left: 10px;*/
+    box-sizing: border-box;
+}
+.ChanPin_You_NeiRong{
+    width: 771px;
+    height: 462px;
+    border: 1px solid rgb(102,102,102);
+    position: absolute;
+    top: 50px;
+}
+.NeiRong_Tou{
+    height: 27px;
+}
+.NeiRong_Tou1{
+    width: 771px;
+    height: 27px;
+    background: rgb(243,243,243);
+    text-align: center;
+    line-height: 27px;
+}
+.NeiRong_Tou1 li:nth-child(2){
+    color: #666666;
+}
+.ChanPin_You_Tou2 li:nth-child(1){
+    color: black;
+    font-weight: bold;
+}
+.NeiRong_Tou1 ul li{
+    border-right: 1px solid rgb(225,225,225);
+    display: block;
+    padding: 0 10px 0 8px;
+}
+.XianShiFangShi{
+    float: right;
+}
+.XianShiFangShi li{
+    font-size: 12px;
+    color: rgb(0,0,0);
+}
+.XianShiFangShi li:nth-child(1){
+    border: none;
+    font-size: 12px;
+    color: rgb(0,0,0);
+    font-weight: bold;
+}
+.XianShiFangShi img{
+    margin: 5px 10px 0 10px;
+}
+.DianQi1{
+    width: 771px;
+    height: 110px;
+    border-bottom:1px dashed #ccc;
+    margin-top: 10px;
+}
+.DianQi1 img,.DianQi2 img,.DianQi3 img{
+    border: 1px solid rgb(192,192,192);
+    margin-left: 10px;
+}
+.DianQiXiangQing{
+    margin: 25px 60px 0px 0;
+    font-size: 12px;
+    padding-left: 47px;
+}
+.DianQiXiangQing li{
+    color: rgb(74,0,0);
+}
+.DianQiXiangQing2 li{
+    margin-right: 15px;
+}
+.DianQiXiangQing2 li:nth-child(2){
+    color: rgb(253,103,0);
+}
+.DianQi2{
+    width: 771px;
+    height: 110px;
+    border-bottom:1px dashed #ccc;
+    margin-top: 10px;
+}
+.AnNiu{
+    margin-top: 25px;
+    position: absolute;
+    right: 118px;
+}
+.AnNiu button{
+    background: -webkit-linear-gradient(bottom,  rgb(253,209,38) 0%,rgb(252,229,122) 100%);
+    font-size: 12px;
+    color: rgb(160,65,10);
+    border: 1px solid rgb(237,193,1);
+    box-shadow: 1px 2px 0px #ccc;
+    cursor: pointer;
+}
+.DianQi3{
+    width: 771px;
+    height: 110px;
+    border-bottom:1px dashed #ccc;
+    margin-top: 10px;
+}
+.WeiYe{
+    margin-top: 10px;
+}
+.WeiYe1{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.WeiYe2{
+    margin-left: 20px;
+    font-size: 12px;
+}
+#WeiYe3{
+    width: 43px;
+    height: 20px;
+    margin-left: 10px;
+}
+#WeiYe4{
+    margin-left: 5px;
+}
+.DiBu{
+    margin:40px auto 0 10px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.DiBu button{
+    background: rgb(246,246,246);
+    border: 1px solid #ccc;
+}
+.Ye button:nth-child(3){
+    width: 21px;height: 21px;
+}
+
+/*左边状态栏*/
+.ChanPin_Zuo{
+    width: 194px;
+    height: 1009px;
+    position: absolute;
+}
+.YongHuXinXi{
+    width: 193px;
+    height: 246px;
+    position: relative;
+    border: 1px solid rgb(227,69,66);
+    border-radius: 3px 3px;
+}
+.ChanPin_Zuo_BJ1{
+    width: 193px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-size: 14px;
+    background: url("../images/YongHuXinXi_beijingtu.jpg");
+}
+.YongHuXinXi ul{
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    width: 124px;
+    height: 149px;
+    list-style: none;
+    font-size: 12px;
+    color: rgb(102,102,102);
+}
+
+.YongHuXinXi img{
+    margin-right: 6px;
+}
+.FenLeiShangPin{
+    width: 193px;
+    height: 620px;
+    position: absolute;
+    top: 252px;
+    border: 1px solid rgb(227,69,66);
+    font-size: 12px;
+    border-radius: 3px 3px;
+}
+.ChanPin_Zuo_BJ2{
+    width: 193px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-size: 14px;
+    background: url("../images/YongHuXinXi_beijingtu.jpg");
+}
+.JiaYongDianQi{
+    margin: 2PX 15px 0 15px;
+    list-style: none;
+    font-size: 14px;
+    color: rgb(214,41,11);
+}
+.JiaYongDianQi li ul li:nth-child(2){
+    border-right: none;
+}
+.JiaYongDianQi li{
+    margin-left: 5px;
+    font-size: 12px;
+    color: rgb(102,102,102);
+}
+
+.JiaYongDianQi_lei1 {
+    width: 174px;
+    height: 22px;
+    list-style: none;
+}
+
+
+.JiaYongDianQi_lei1  li{
+    width: 70px;
+    height: 18px;
+    border-right: 1px solid black;
+    text-align: center;
+    line-height: 18px;
+    float: left;
+    margin-left: 0 ;
+}
+
+hr{
+    height:1px;
+    border: none;
+    border-top:1px dashed rgb(220,220,220);
+    margin: 2px;
+}
+.ShouJiShuMa{
+    margin: 8PX 15px 0 15px;
+    list-style: none;
+    font-size: 14px;
+    color: rgb(214,41,11);
+}
+.ShouJiShuMa li{
+    margin-left: 25px;
+    font-size: 12px;
+    color: rgb(102,102,102);
+}
+.FenLeiShangPin p{
+    font-size: 12px;
+    float: right;
+    color: rgb(102,102,102);
+}
+.FenLeiTuiJianShangPin{
+    width: 193px;
+    height: 132px;
+    border-radius: 3px 3px;
+    border: 1px solid red;
+    position: absolute;
+    top: 878px;
+}
+.FenLeiTuiJianShangPin img{
+    width: 50px;
+    height: 36px;
+    margin: 35px auto 0 20px;
+    border-radius: 3px 3px;
+}
+.FenLeiTuiJianShangPin ul{
+    list-style: none;
+}
+.ChanPin_Zuo_BJ3{
+    width: 100px;
+    height: 92px;
+    float: right;
+    font-size: 12px;
+    position: absolute;
+    top: 39px;
+    right: 10px;
+    color: rgb(102,102,102);
+}
+.ChanPin_Zuo_BJ3 ul li:nth-child(2){
+    color: rgb(214,41,11);
+}
