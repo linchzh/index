@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"微软雅黑";
+}
+.BaoJia{
+    width: 980px;
+    height: 575px;
+    margin: 5px auto 0 auto;
+}
+.BaoJiaDan_Tou{
+    width: 980px;
+    height: 45px;
+    position: relative;
+    margin: 6px auto 0 auto;
+    border-bottom: 1px solid rgb(228,228,228);
+    color: rgb(0,0,0);
+    background: -webkit-linear-gradient(bottom,  rgb(251,242,255) 0%,#ffffff 100%);
+}
+.BaoJiaDan_Tou p1{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.BaoJiaDan_Tou p2{
+    margin: 5px 5px auto ;
+    float: right;
+    bottom: 20px;
+    left: 5px;
+    font-size: 12px;
+}
+.BaoJiaDan_DaoHang{
+    margin: 0 auto;
+    width: 980px;
+    height: 26px;
+    background: rgb(245,245,245);
+    color: rgb(0,0,0);
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    list-style: none;
+
+}
+
+.BaoJiaDan_DaoHang li{
+    float: left;
+}
+.BaoJiaDan_DaoHang li:nth-child(1){
+    width: 35px;
+    height: 26px;
+    left: 5px;
+    padding-right: 10px;
+    position: absolute;
+    border-right: 1px solid rgb(255,255,255);
+}
+.BaoJiaDan_DaoHang li:nth-child(2){
+    width: 446px;
+    height: 26px;
+    left: 5px;
+    padding-left: 60px;
+    border-right: 1px solid rgb(255,255,255);
+}
+.BaoJiaDan_DaoHang li:nth-child(2) p{
+    position: absolute;
+    left: 10px;
+    border-right: 1px solid rgb(255,255,255);
+}
+.BaoJiaDan_DaoHang li:nth-child(3){
+    width: 125px;
+    height: 26px;
+    text-align: center;
+    border-right: 1px solid rgb(255,255,255);
+}
+.BaoJiaDan_DaoHang li:nth-child(4){
+
+    width: 125px;
+    height: 26px;
+    text-align: center;
+    border-right: 1px solid rgb(255,255,255);
+}
+.BaoJiaDan_DaoHang li:nth-child(5){
+    width: 65px;
+    height: 26px;
+    text-align: center;
+    border-right: 1px solid rgb(255,255,255);
+}
+.BaoJiaDan_DaoHang li:nth-child(6){
+
+    width: 106px;
+    height: 26px;
+    text-align: center;
+    float: right;
+    border-right: none;
+}
+.BaoJiaDan_NeiRong{
+    margin: 5px auto;
+    width: 980px;
+    height: 430px;
+    position: relative;
+    font-size: 12px;
+
+}
+/*.BaoJiaDan_NeiRong div{*/
+/*float: left;*/
+/*width: 980px;*/
+/*height: 50px;*/
+/*top: 10px;*/
+/*line-height: 50px;*/
+/*font-size: 12px;*/
+/*}*/
+.nr1{
+    height: 50px;
+    position: relative;
+    list-style: none;
+    line-height: 50px;
+}
+.nr1 li{
+    float: left;
+    position: absolute;
+}
+.BaoJiaDan_NeiRong img{
+    width: 46px;
+    height: 46px;
+    padding-right: 10px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+.nr1 li:nth-child(2){
+    padding-left: 60px;
+}
+.nr1 li:nth-child(3){
+    padding-left: 540px;
+}
+
+.nr1 li:nth-child(4){
+    padding-left: 665px;
+    color: rgb(250,0,0);
+}
+.nr1 li:nth-child(5){
+    padding-left: 780px;
+}
+.nr1 li:nth-child(6){
+    position: absolute;
+    right: 40px;
+    top: 0px;
+}
+.BaoJiaDan_NeiRong ul:nth-child(2),.BaoJiaDan_NeiRong ul:nth-child(3),
+.BaoJiaDan_NeiRong ul:nth-child(4),.BaoJiaDan_NeiRong ul:nth-child(5),
+.BaoJiaDan_NeiRong ul:nth-child(6),.BaoJiaDan_NeiRong ul:nth-child(7),
+.BaoJiaDan_NeiRong ul:nth-child(8){
+    margin-top: 5px;
+}
+.BaoJiaDan_NeiRong ul:nth-child(2),.BaoJiaDan_NeiRong ul:nth-child(4),
+.BaoJiaDan_NeiRong ul:nth-child(6),.BaoJiaDan_NeiRong ul:nth-child(8){
+    background:rgb(245,245,245);
+}
+.BaoJiaDan_YeMianTiaoZhuang{
+    width: 980px;
+    height: 56px;
+    margin:0 auto;
+    background: rgb(255,242,255);
+    font-size: 12px;
+    position: relative;
+    color: #000;
+
+}
+.BaoJiaDan_YeMianTiaoZhuang ul{
+    list-style: none;
+    /*width: 600px;*/
+    height: 56px;
+}
+.BaoJiaDan_YeMianTiaoZhuang ul li{
+    float: left;
+    padding-top: 15px;
+}
+.BaoJiaDan_YeMianTiaoZhuang ul li:first-child{
+    padding: 15px 8px 0 0;
+}
+.BaoJiaDan_YeMianTiaoZhuang ul li:nth-child(4){
+    padding: 15px  0px 0 8px;
+}
+.YeMianTiaoZhuang2{
+    position: absolute;
+    left: 0;
+    top:20px;
+    list-style: none;
+
+}
+#shurukuang{
+    text-align: center;
+    width: 40px;
+    height: 20px;
+    margin: 15px 0 0 5px;
+}
+#anniu{
+    width: 30px;
+    height: 21px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: 256px;
+    top: 15px;
+}
